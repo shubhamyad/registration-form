@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js" integrity="sha512-DNeDhsl+FWnx5B1EQzsayHMyP6Xl/Mg+vcnFPXGNjUZrW28hQaa1+A4qL9M+AiOMmkAhKAWYHh1a+t6qxthzUw==" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css" integrity="sha512-yye/u0ehQsrVrfSd6biT17t39Rg9kNc+vENcCXZuMz2a+LWFGvXUnYuWUW6pbfYj1jcBb/C39UZw2ciQvwDDvg==" crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js" integrity="sha512-BNZ1x39RMH+UYylOW419beaGO0wqdSkO7pi1rYDYco9OL3uvXaC/GTqA5O4CVK2j4K9ZkoDNSSHVkEQKkgwdiw==" crossorigin="anonymous"></script>      
+
+
+    </head>
+    <body>
+        <body>
+            <h1 style="text-align: center;">REGISTRATION FORM</h1>
+            <form name="RegForm" onsubmit="return RESISTRATION()" method="post">
+                <div class="row">
+                    <div class="col-xs-3">
+                    <b> First Name:</b>
+                        <input type="text" class="form-control" name="fName" Placeholder="First Name" />
+                    </div>
+                    <div class="col-xs-3">
+                        <b> Last Name:</b>
+                            <input type="text" class="form-control" name="lName" Placeholder="Last Name" />
+                     </div>
+                </div>
+                <br/>
+                
+                <p><b>Email address</b>:<input type="email" class="form-control" name="EMail" Placeholder="Email"/></p>
+                <br />
+                <b>Phone Number:</b> <input size="40" name="phone" type="tel" id="phone" class="form-control"  Placeholder="Phone Number"  />
+                <br /> 
+                <p>Date of Birth: <input type="date" id="dob" size="10" name="dob" class="form-control" placeholder="DOB"/></p>
+                <br/>
+                <p><b>Addressline1:</b> <input type="text" size="65" name="Address" class="form-control" Placeholder="Addressline1" />
+                 <br/>
+                <b> City:</b><input type="text" size="65" name="City" class="form-control" Placeholder="City" /> 
+                <br/>
+                <b> State:</b><input type="text" size="65" name="State" class="form-control" Placeholder="State" />
+                <br/> 
+                <b> Country:</b><input type="text" size="65" name="Country" class="form-control" Placeholder="Country" /> 
+                <br/>
+                <b> Zip:</b><input type="number" size="65" name="Zip" class="form-control" Placeholder="Zip"/>
+                </p>                
+                <br />               
+                <p><b>Password:</b> <input type="password" size="65" name="password" id ="password" class="form-control" Placeholder="Enter password"/></p>
+                <br />
+                <p><b>Re-Password: </b><input type="password" size="65" name="re_password" id ="re_password" class="form-control" Placeholder="Re-enter password" /></p>
+                <br />               
+                <p><input type="submit" value="submit" name="Submit" /></p>
+            </form>
+        </body>
+        
+    </body>
+</html>

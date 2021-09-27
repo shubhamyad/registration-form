@@ -1,0 +1,13 @@
+div {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    float: left;
+    align-content: center;
+    align-items: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 600px;
+}
